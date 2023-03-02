@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    width: 90%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    flex-grow: 1;
+    background-color: beige;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    color: brown;
+    font-size: 28px;
+    width: 100%;
+}
+
+.photos {
+    width: 25%;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.nav-block {
+    width: 60%;
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-li {
+    list-style-type: none;
+}
